@@ -11,7 +11,7 @@ while(step != t)
     if(value = 1)
     {
         cycle *= 2;
-        value = cycle;
+        value += cycle;
     }
     value--;
     step++;
